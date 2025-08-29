@@ -11,8 +11,7 @@ if TYPE_CHECKING:
 
 
 class CssPackagesSuiteWorkdir(FrameworkPackageSuiteWorkdir):
-
-    def _get_children_default_workdir_class(self) -> type[CodeBaseWorkdir]:
+    def _get_children_package_workdir_class(self) -> type[CodeBaseWorkdir]:
         from wexample_wex_addon_dev_css.workdir.css_package_workdir import (
             CssPackageWorkdir,
         )

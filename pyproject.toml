@@ -17,11 +17,11 @@ from = "src"
 
 [project]
 name = "wexample-wex-addon-dev-css"
-version = "0.0.2"
+version = "0.0.3"
 requires-python = ">=3.10"
 dependencies = [
     "pydantic>=2,<3",
-    "wexample-wex-core==6.0.44",
+    "wexample-wex-core==6.0.45",
 ]
 
 [project.optional-dependencies]

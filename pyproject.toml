@@ -20,6 +20,8 @@ name = "wexample-wex-addon-dev-css"
 version = "0.0.3"
 requires-python = ">=3.10"
 dependencies = [
+    "attrs>=23.1.0",
+    "cattrs>=23.1.0",
     "pydantic>=2,<3",
     "wexample-wex-core==6.0.45",
 ]

@@ -2,7 +2,7 @@
 
 
 
-Version: 0.0.3
+Version: 0.0.4
 
 ## Requirements
 
@@ -12,7 +12,7 @@ Version: 0.0.3
 
 - attrs>=23.1.0
 - cattrs>=23.1.0
-- wexample-wex-core==6.0.45
+- wexample-wex-core==6.0.46
 
 ## Installation
 

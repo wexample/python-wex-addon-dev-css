@@ -14,12 +14,12 @@ from = "src"
 
 [project]
 name = "wexample-wex-addon-dev-css"
-version = "0.0.4"
+version = "0.0.5"
 requires-python = ">=3.10"
 dependencies = [
     "attrs>=23.1.0",
     "cattrs>=23.1.0",
-    "wexample-wex-core==6.0.46",
+    "wexample-wex-core==6.0.47",
 ]
 
 [project.optional-dependencies]

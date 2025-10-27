@@ -12,6 +12,9 @@ package-dir = "src"
 include = "wexample_wex_addon_dev_css"
 from = "src"
 
+[tool.setuptools.packages.find]
+include = ["*"]
+exclude = ["wexample_wex_addon_dev_css.testing*"]
 [project]
 name = "wexample-wex-addon-dev-css"
 version = "0.0.7"
@@ -25,4 +28,5 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest",
+    "pytest-cov",
 ]

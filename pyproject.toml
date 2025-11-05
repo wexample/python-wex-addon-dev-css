@@ -27,6 +27,10 @@ dev = [
     "pytest-cov",
 ]
 
+[tool.setuptools.packages.find]
+include = ["*"]
+exclude = ["wexample_wex_addon_dev_css.testing*"]
+
 [tool.pdm]
 distribution = true
 
@@ -36,6 +40,14 @@ package-dir = "src"
 [[tool.pdm.build.packages]]
 include = "wexample_wex_addon_dev_css"
 from = "src"
-[tool.setuptools.packages.find]
-include = ["*"]
-exclude = ["wexample_wex_addon_dev_css.testing*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.coverage.run]
+source = ["wexample_wex_addon_dev_css"]
+omit = ["*/tests/*", "*/.venv/*", "*/venv/*"]
+
+[tool.coverage.report]
+exclude_lines = ["pragma: no cover", "def __repr__", "raise AssertionError", "raise NotImplementedError", "if __name__ == .__main__.:", "if TYPE_CHECKING:", "@abstractmethod"]

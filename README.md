@@ -1,6 +1,6 @@
 # wex_addon_dev_css
 
-Version: 6.0.35
+Version: 6.0.36
 
 ## Table of Contents
 
@@ -80,7 +80,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 
 - attrs: >=23.1.0
 - cattrs: >=23.1.0
-- wexample-wex-addon-app: >=16.4.0
+- wexample-wex-addon-app: >=16.6.0
 
 ## Versioning & Compatibility Policy
 

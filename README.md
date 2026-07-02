@@ -1,6 +1,6 @@
 # wex_addon_dev_css
 
-Version: 6.0.70
+Version: 6.0.71
 
 ## Table of Contents
 
